@@ -1,0 +1,90 @@
+body {
+  background: url(http://www.planwallpaper.com/static/images/518079-background-hd.jpg);
+  background-color: #a07d53;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+#calculator {  
+  width: 320px;
+  height: 620px;
+  margin: 50px auto;
+  background: white;
+  border: 2px solid;
+  border-radius: 25px;  
+}
+
+#totalAndButtons {
+  width: auto;
+  display: inline-block;
+  margin: 40px 10px 10px;
+  padding: 10px auto;
+  border: 2px solid;
+  border-radius: 5px;  
+}
+
+#total {  
+  height: 200px;
+  background: rgb(127,96,63); 
+  position: relative;
+}
+
+#equation {
+  text-align: right;
+  color: #FFD0A8;
+  width: 296px;  
+}
+
+#clear {
+  width: 24px;
+  height: 20px;
+  font-size: 10px;  
+  position: absolute; 
+  bottom: 0;
+  right: 0;
+  background: #FFD0A8;
+  border-radius: 60% 0% 0% 0%;
+}
+
+button {
+  width: 74px;
+  height: 65px; 
+  display: block;
+  float:left;  
+  color: rgb(127,96,63);  
+  border: 1px solid rgb(127,96,63);  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px; 
+}
+
+button:focus {
+  outline:0;
+}
+button:active {
+	border: 0 solid #000;
+  background: rgba(255,142,69,0.5);	
+  transform: scale(1.1);   
+}
+
+.operators {
+  background: rgb(165,133,83);  
+}
+
+.number {
+  color: rgb(112,89,39);
+  background: rgb(198,170,126);  
+}
+
+#clearAll {
+  font-weight: bold; 
+}
+
+#equal {
+  width: 148px;
+  color: #ffffff;
+  background: rgb(255,142,69); 
+}
