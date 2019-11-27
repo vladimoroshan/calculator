@@ -1,2 +1,3 @@
-# JavaScript-Calculator-
-Also pay attention to [Wiki page](https://github.com/VladislavMoroshan/JavaScript-Calculator-/wiki/JavaScript-calculator)
+# Vanilla JavaScript Calculator
+
+View demo [here at Codepen](https://codepen.io/Moroshan/full/JEXJZx)
